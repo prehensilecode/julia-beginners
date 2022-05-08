@@ -1,16 +1,15 @@
 Feature,Data type,Description
-Symbol,string,Company logo
-Name,string,Company name
-Sector,string,Company sector
-Price,float,The price is a reflection of the company's value what the public is willing to pay for a piece of the company. It can and will rise and fall, based on a variety of factors in the global landscape and within the company itself.
-Earnings,float,The price-earnings ratio, also known as P/E ratio, P/ E, or PER, is the ratio of a company's share price to the company's earnings per share. The ratio is used for valuing companies and to find out whether they are overvalued or undervalued.
-Dividend Yield,float,The dividend yield or dividend-price ratio of a share is the dividend per share, divided by the price per share. It is also a company's total annual dividend payments divided by its market capitalization, assuming the number of shares is constant. It is often expressed as a percentage.
-Share,float,A share is an indivisible unit of capital, expressing the ownership relationship between the company and the shareholder. The denominated value of
-a share is its face value, and the total of the face value of issued shares represent the capital of a company, which may not reflect the market value of those shares.
-52 Week Low,float,The 52-week low is the lowest price at which a security has traded during the time period that equates to one year and is viewed as a technical indicator.
-52 Week High,float,The 52-week high is the highest price at which a security has traded during the time period that equates to one year and is viewed as a technical indicator.
-Market Cap,integer,Market capitalization, commonly called market cap, is the market value of a publicly traded company's outstanding shares. Market capitalization is equal to the share price multiplied by the number of shares outstanding.
-EBITDA,integer,A company's earnings before interest, taxes, depreciation, and amortization is an accounting measure calculated using a company's earnings, before interest expenses, taxes, depreciation, and amortization are subtracted, as a proxy for a company's current operating profitability.
-Sales,float,Sales are activities related to selling or the number of goods sold in a given targeted time period. The delivery of a service for a cost is also considered a sale.
-Price_Book,float,The price-to-book ratio, or P/B ratio, is a financial ratio used to compare a company's current market price to its book value. The calculation can be performed in two ways, but the result should be the same each way.
-SEC Filings,string,The SEC filing is a financial statement or other formal document submitted to the U.S. Securities and Exchange Commission. Public companies, certain insiders, and broker-dealers are required to make regular SEC filings.
+Symbol,string,"Company logo"
+Name,string,"Company name"
+Sector,string,"Company sector"
+Price,float,"The price is a reflection of the company's value what the public is willing to pay for a piece of the company. It can and will rise and fall, based on a variety of factors in the global landscape and within the company itself."
+Earnings,float,"The price-earnings ratio, also known as P/E ratio, P/ E, or PER, is the ratio of a company's share price to the company's earnings per share. The ratio is used for valuing companies and to find out whether they are overvalued or undervalued."
+Dividend Yield,float,"The dividend yield or dividend-price ratio of a share is the dividend per share, divided by the price per share. It is also a company's total annual dividend payments divided by its market capitalization, assuming the number of shares is constant. It is often expressed as a percentage."
+Share,float,"A share is an indivisible unit of capital, expressing the ownership relationship between the company and the shareholder. The denominated value of a share is its face value, and the total of the face value of issued shares represent the capital of a company, which may not reflect the market value of those shares."
+52 Week Low,float,"The 52-week low is the lowest price at which a security has traded during the time period that equates to one year and is viewed as a technical indicator."
+52 Week High,float,"The 52-week high is the highest price at which a security has traded during the time period that equates to one year and is viewed as a technical indicator."
+Market Cap,integer,"Market capitalization, commonly called market cap, is the market value of a publicly traded company's outstanding shares. Market capitalization is equal to the share price multiplied by the number of shares outstanding."
+EBITDA,integer,"A company's earnings before interest, taxes, depreciation, and amortization is an accounting measure calculated using a company's earnings, before interest expenses, taxes, depreciation, and amortization are subtracted, as a proxy for a company's current operating profitability."
+Sales,float,"Sales are activities related to selling or the number of goods sold in a given targeted time period. The delivery of a service for a cost is also considered a sale."
+Price_Book,float,"The price-to-book ratio, or P/B ratio, is a financial ratio used to compare a company's current market price to its book value. The calculation can be performed in two ways, but the result should be the same each way."
+SEC Filings,string,"The SEC filing is a financial statement or other formal document submitted to the U.S. Securities and Exchange Commission. Public companies, certain insiders, and broker-dealers are required to make regular SEC filings."
