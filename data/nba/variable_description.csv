@@ -1,0 +1,29 @@
+Feature,Data type,Description
+date,date,"Date of match"
+season,date,"Year of match"
+neutral,binary,"In many sports, such designations may also apply to games played at a neutral site, as the rules of various sports make different provisions for home and visiting teams."
+playoff,missing,"The playoffs are the end-of- season tournament to determine which team wins the NBA title."
+team1,string,"First team"
+team2,string,"Second team"
+elo1_pre,float,"The Elo rating system is a method for calculating the relative skill levels of players in zero-sum games. This is the first prediction pre-game."
+elo2_pre,float,"Second prediction pre-game."
+elo_prob1,float,"Each predicted probability is compared to the actual class output value (0 or 1) and a score is calculated that penalizes the probability based on the distance from the expected value. First probability score."
+elo_prob2,float,"Second probability score."
+elo1_post,float,"First prediction post game."
+elo2_post,float,"Second prediction post game."
+carm-elo1_pre,float,"To try to address that shortcoming, in 2015
+we introduced a system we called [CARM-Elo](https://projects.fivethirtyeight.com/carmelo/). This still used the Elo framework to handle game results, but it also used our [CARMELO player projections](https://projects.fivethirtyeight.com/carmelo/) to incorporate offseason transactions into the initial ratings for a given season. First pre-game."
+prediction,float,"Second CARM-Elo pre-game prediction."
+carm-elo_prob1,float,"Each predicted probability is compared to the actual class output value (0 or 1) and a score is calculated that penalizes the probability based on the distance from the expected value. First probability score."
+carm-elo_prob2,float,"Second probability score."
+carm-elo1_post,float,"First prediction post game."
+carm-elo2_post,float,"Second prediction post game."
+raptor1_pre,float,"The player ratings are currently based on our RAPTOR metric, which uses a blend of basic boxscore stats, player tracking metrics and plus/minus data to estimate a player's effect (per 100 possessions) on his team's offensive or defensive efficiency. First raptor predictions pre-game."
+raptor2_pre,float,"Second pre-game predictions."
+raptor_prob1,float,"Each predicted probability is compared to the actual class output value (0 or 1) and a score is calculated that penalizes the probability based on the distance from the expected value. First probability score."
+raptor_prob2,float,"Second probability score."
+score1,float,"Actual score 1"
+score2,float,"Actual score 2"
+
+
+
